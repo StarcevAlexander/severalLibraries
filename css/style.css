@@ -1,0 +1,60 @@
+body {
+  max-width: 1920px;
+  font-family: Arial, sans-serif;
+}
+
+.navod:hover{
+  background-color: blue;
+}
+
+.ui-widget-content{
+  height: 60px !important;;
+  padding: 1em !important;
+  border: none !important;
+  margin: 0 auto!important;
+}
+
+.slick-track{
+  display: flex;
+}
+.slick-list{
+  overflow: hidden;
+}
+.slider {
+  position: relative;
+}
+
+.slider img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.slider .slick-arrow{
+position: absolute;
+top: calc(50% - 15px);
+z-index: 10;
+font-size: 0;
+width: 40px;
+height: 40px;
+border: none;
+margin: 0 13px;
+}
+
+.slider .slick-arrow.slick-prev{
+  left: 0;
+  background: url(../images/стрелка-left.svg) 0 0 / 100% no-repeat;
+}
+.slider .slick-arrow.slick-next{
+  right: 0;
+  background: url(../images/стрелка-right.svg) 0 0 / 100% no-repeat;
+}
+
+.sometext{
+    position: absolute;
+    bottom: 40%;
+    padding: 0px 20px;
+    color: #fff;
+    text-align: left;
+    margin-left: 16%;
+}
